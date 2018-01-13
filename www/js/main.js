@@ -1,5 +1,3 @@
-StatusBar.overlaysWebView(true);
-
 var settings = {
 	current_page: "home",
 	editing_profile: false,

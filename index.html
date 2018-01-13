@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bolt</title>
+		<link rel='stylesheet' type='text/css' href='styles/styling.css' />
+		<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+		<link rel="icon" type="img/png" href="images/favicon.png?v=2">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+		<? include 'db.php'; ?>
+	</head>
+
+	<body>
+		<div class="menu">
+			<a href="#" ontouchend="transitionPage('home')">
+				<div class="menu-item active" id="home-menu-item">
+					<span class="glyphicon glyphicon-home icon" aria-hidden="true"></span>
+				</div>
+			</a>
+			<a href="#" ontouchend="transitionPage('search')">
+				<div class="menu-item" id="search-menu-item">
+					<span class="glyphicon glyphicon-search icon" aria-hidden="true"></span>
+				</div>
+			</a>
+			<a href="#" ontouchend="transitionPage('profile')">
+				<div class="menu-item" id="profile-menu-item">
+					<span class="glyphicon glyphicon-user icon" aria-hidden="true"></span>
+				</div>
+			</a>
+		</div>
+		
+		<div class="home" id="home">
+			<div id="log-in">
+				<img class="logo" src="images/logo1.png">
+				<div id="sign-in">
+					<p class="title">Sign in to Bolt</p>
+					<form action="javascript:void(0);" onsubmit="login()">
+						<div class="inputs">
+							<div class="input">
+								<div class="value"><p>Email</p></div>
+								<input type="email" id="login-email">
+							</div>
+							<div class="input">
+								<div class="value"><p>Pass</p></div>
+								<input type="password" id="login-pass">
+							</div>
+						</div>
+						<br>
+						<input id="login-button" type="submit" value="Sign in">
+					</form>
+					<p class="alternative"><a href="#" ontouchend="toggleCreateAccount(true)">Don't have an account? Click here to create one.</a></p>
+				</div>
+				<div id="create-account" style="display: none;">
+					<p class="title" style="font-size: 40px;">Create an account</p>
+					<form action="javascript:void(0);" onsubmit="signUp()">
+						<div class="inputs">
+							<div class="input">
+								<div class="value"><p>Email</p></div>
+								<input type="email" id="signup-email">
+							</div>
+							<div class="input">
+								<div class="value" style="font-size: 13px; padding-top: 12px;"><p>Username</p></div>
+								<input type="text" id="signup-username" maxlength="16" autocorrect="off" autocapitalize="none">
+							</div>
+							<div class="input">
+								<div class="value"><p>Pass</p></div>
+								<input type="password" id="signup-pass">
+							</div>
+							<div class="input">
+								<div class="value" style="font-size: 10px; padding-top: 14px;"><p>Confirm Pass</p></div>
+								<input type="password" id="signup-confirm-pass">
+							</div>
+						</div>
+						<br>
+						<input id="signup-button" type="submit" value="Create account">
+					</form>
+					<p class="alternative"><a href="#" ontouchend="toggleCreateAccount(false)">Already have an account? Click here to sign in.</a></p>
+				</div>
+				<div class="error"><p id="error"></p></div>
+			</div>
+			
+			<div id="confirm-email" style="display: none;">
+				<img class="logo" src="images/logo1.png" style="margin-top: 100px;">
+				<p class="title" style="font-size: 40px;">Verify your email</p>
+				<hr>
+				<p style="font-size: 25px;">A message has been sent to <span id="sent-email"></span> with a link to verify your account.</p>
+			</div>
+			
+			<div class="images" id="landing" style="display: none;">
+				<div class="title">
+					<img class="logo" src="images/logo1.png">
+					<p>My Adventures</p>
+				</div>
+				<img src="images/1.png">
+				<img src="images/2.png">
+				<img src="images/3.png">
+			</div>
+		</div>
+		
+		<div class="profile" id="profile" style="display: none;">
+			<div class="header">
+				<img class="profile-pic" src="https://jlemon.org/projects/bolt/images/7/6691076">
+				<div class="title">
+					<p class="username">@<span id="profile-username"></span></p>
+					<p class="points"><span id="profile-points">0</span> <img src="images/point.png"></p>
+					<p class="joined">Bolting since <span id="profile-joined"></span></p>
+				</div>
+				<button class="edit-button" id="edit-button" ontouchend="toggleProfileOverlay()">Edit profile</button>
+				<div class="edit-overlay" id="edit-overlay" style="display: none;">
+					<div class="edit-profile-pic">
+						<input type="file" id="image-upload">
+						<button class="edit-pic-button" id="edit-pic-button">Change picture</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+	<script src="js/main.js"></script>
+	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAie9dAaHUIhaDalmtBlGrdj8hgxYkwyW8&libraries=places&callback=initMap"></script>-->
+</html>

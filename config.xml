@@ -11,6 +11,7 @@
 	<preference name="StatusBarOverlaysWebView" value="true" />
 	<preference name="StatusBarBackgroundColor" value="#FFFFFF" />
 	<preference name="StatusBarDefaultScrollToTop" value="true" />
+	<preference name="StatusBarStyle" value="default" />
 	
     <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
 </widget>

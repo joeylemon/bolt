@@ -8,6 +8,8 @@
 		Joey Lemon
 	</author>
 	
+	<icon src="www/images/icon2x.png" platform="ios" width="120" height="120" />
+	
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="StatusBarDefaultScrollToTop" value="true" />

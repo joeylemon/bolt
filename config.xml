@@ -8,10 +8,10 @@
 		Joey Lemon
 	</author>
 	
-	<preference name="StatusBarOverlaysWebView" value="true" />
-	<preference name="StatusBarBackgroundColor" value="#FFFFFF" />
-	<preference name="StatusBarDefaultScrollToTop" value="true" />
-	<preference name="StatusBarStyle" value="default" />
-	
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+    <preference name="StatusBarDefaultScrollToTop" value="true" />
+    <preference name="StatusBarStyle" value="default" />
+    <engine name="ios" spec="~4.4.0" />
     <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
 </widget>

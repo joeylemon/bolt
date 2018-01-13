@@ -1,0 +1,17 @@
+{
+    "name": "org.jlemon.bolt",
+    "version": "1.0.0",
+    "displayName": "Bolt",
+    "cordova": {
+        "platforms": [
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-statusbar": {}
+        }
+    },
+    "dependencies": {
+        "cordova-ios": "~4.4.0",
+        "cordova-plugin-statusbar": "~2.4.1"
+    }
+}

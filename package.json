@@ -7,13 +7,11 @@
             "ios"
         ],
         "plugins": {
-            "cordova-plugin-statusbar": {},
-            "cordova-plugin-splashscreen": {}
+            "cordova-plugin-statusbar": {}
         }
     },
     "dependencies": {
         "cordova-ios": "~4.4.0",
-        "cordova-plugin-splashscreen": "^5.0.1",
         "cordova-plugin-statusbar": "~2.4.1"
     }
 }

@@ -7,17 +7,11 @@
     <author email="joeyclemon@gmail.com" href="https://jlemon.org">
 		Joey Lemon
 	</author>
-	
     <icon height="120" platform="ios" src="www/images/icon2x.png" width="120" />
-	<splash src="www/images/splash.png" />
-	
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="StatusBarDefaultScrollToTop" value="true" />
     <preference name="StatusBarStyle" value="default" />
-	
     <engine name="ios" spec="~4.4.0" />
-	
     <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
-    <plugin name="cordova-plugin-splashscreen" spec="^5.0.1" />
 </widget>

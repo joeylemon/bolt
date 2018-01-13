@@ -1,8 +1,6 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
-	window.plugins.webviewcolor.change('#FFFFFF', function(){
-		alert("change color");
-	});
+	window.plugins.webviewcolor.change('#FFFFFF');
 }
 
 var settings = {

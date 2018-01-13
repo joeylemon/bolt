@@ -1,3 +1,8 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+	
+}
+
 var settings = {
 	current_page: "home",
 	editing_profile: false,

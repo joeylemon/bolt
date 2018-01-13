@@ -8,7 +8,6 @@
 		Joey Lemon
 	</author>
     <icon height="120" platform="ios" src="www/images/icon2x.png" width="120" />
-	<preference name="EnableViewportScale" value="true" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="StatusBarDefaultScrollToTop" value="true" />

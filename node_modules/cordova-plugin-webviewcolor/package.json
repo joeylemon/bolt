@@ -1,0 +1,63 @@
+{
+  "_from": "cordova-plugin-webviewcolor",
+  "_id": "cordova-plugin-webviewcolor@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-zS595R5rNDpARr07RDgwkhJGFJg=",
+  "_location": "/cordova-plugin-webviewcolor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-webviewcolor",
+    "name": "cordova-plugin-webviewcolor",
+    "escapedName": "cordova-plugin-webviewcolor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-webviewcolor/-/cordova-plugin-webviewcolor-2.0.0.tgz",
+  "_shasum": "cd2e7de51e6b343a4046bd3b4438309212461498",
+  "_spec": "cordova-plugin-webviewcolor",
+  "_where": "C:\\Users\\Joey\\Desktop\\bolt",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
+  "bugs": {
+    "url": "https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-webviewcolor",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows you to change the default PhoneGap background color (black). Especially on iOS7, when you use the native date picker or a html selectbox, the text is hard to read against the black background (so that's the only currently supported platform).",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor#readme",
+  "keywords": [
+    "WebView Color",
+    "WebView Colour",
+    "Background Color",
+    "Background Colour"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-webviewcolor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor.git"
+  },
+  "version": "2.0.0"
+}

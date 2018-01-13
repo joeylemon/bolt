@@ -1,6 +1,8 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
-	StatusBar.overlaysWebView(true);
+	window.plugins.webviewcolor.change('#FFFFFF', function(){
+		alert("change color");
+	});
 }
 
 var settings = {

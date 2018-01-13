@@ -6,5 +6,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-webviewcolor": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-webviewcolor"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

@@ -1,11 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.jlemon.bolt" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
-	<name>Bolt</name>
-	<description>
+    <name>Bolt</name>
+    <description>
 		An app to share and upload experiences while traveling
 	</description>
-
-	<author email="joeyclemon@gmail.com" href="https://jlemon.org">
+    <author email="joeyclemon@gmail.com" href="https://jlemon.org">
 		Joey Lemon
 	</author>
+	
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+	<preference name="StatusBarDefaultScrollToTop" value="true" />
+	
+    <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
 </widget>

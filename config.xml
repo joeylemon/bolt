@@ -14,6 +14,7 @@
     <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="StatusBarDefaultScrollToTop" value="true" />
     <preference name="StatusBarStyle" value="default" />
+	<preference name="orientation" value="portrait" />
     <engine name="ios" spec="~4.4.0" />
     <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
     <plugin name="cordova-plugin-webviewcolor" spec="^2.0.0" />
